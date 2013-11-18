@@ -1,0 +1,37 @@
+<html>
+<head>
+<style>*{margin:0;padding:0;}</style><meta charset="utf-8"><title></title>
+
+<style>
+body{
+background-color:#CCC;
+}
+#canvas{
+background-color:#CCF;
+position:absolute;
+opacity:0.5;
+z-index:1;
+
+}
+#debug{
+background-color:#CCF;
+position:absolute;
+
+}
+</style>
+
+
+
+</head>
+<body style="overflow:hidden;" onload="init()" >
+<canvas id="canvas" width="1000px" height="700px" ></canvas>
+<canvas id="debug" width="1000px" height="700px"></canvas>
+<script src="Box2dWeb-2.1.a.3.js"></script>
+<script src="easeljs-0.6.1.min.js" ></script>
+<script src="ball.js" ></script>
+<script src="main.js" ></script>
+
+
+<button id="control">stop</button>
+
+</body></html>
